@@ -88,8 +88,8 @@ When you create a new **Module** in the app folder, add the module name to the `
 
 ```
 $params = [
-    ['atribute', 'value', 'compareType'] //compareType is not required, if don't send the default is '='
-    ['atribute2', 'value2']
+    ['attribute', 'value', 'compareType'] //compareType is not required, if you don't send the default value is '='
+    ['attribute2', 'value2']
 ];
 
 $this->commonRepository->getFirstByParams($params);
