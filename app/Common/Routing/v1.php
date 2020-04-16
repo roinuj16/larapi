@@ -9,3 +9,7 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth')->group(function () {
     //
 });
+
+Route::prefix('feature')->group(function () {
+    Route::get('getparams', 'CommonController@index');
+});
